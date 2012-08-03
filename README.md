@@ -50,7 +50,7 @@ The range recommended is 0-100 and the default value is 100.
 
 ### Brightness value
 Set the minimum brightness point of the gamma ramp curve to the value specified at integer 'parcent'.
-The range recommended is 0-100 and the default value is 100.
+The range recommended is 0-100 and the default value is 0.
 
 Example
 -------
