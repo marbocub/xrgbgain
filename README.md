@@ -41,7 +41,7 @@ Usage
      -b, --bbrightness <parcent>      set Blue  Brightness value, range 0-100
 
 ### Gamma value
-Sets the gamma curve to the value specified at 'value'. The default value is 1.0.
+Set the gamma curve to the value specified at 'value'. The default value is 1.0.
 
 ### Contrast value
 Set the maximum brightness point of the gamma ramp curve to the value specified in 'parcent'. The value range is 0-100 and the default value is 100.
@@ -52,14 +52,16 @@ Set the minimum brightness point of the gamma ramp curve to the value specified 
 Example
 -------
 
-    $ xrgbgain -R 88 -G 80 -1 0.95 -2 0.92
+    $ xrgbgain --rcontrast 88 --gcontrast 80 --rgamma 0.95 --ggamma 0.92
+    or
+    $ xrgbgain -B 88 -G 80 -1 0.95 -2 0.92
     
             gamma   bright  contrast
     Red      0.95      0 %      88 %
     Green    0.92      0 %      80 %
     Blue     1.00      0 %     100 %
 
-This example is correct the white point of a laptop the LCD was turned yellow.
+This example is correct the white point of my laptop the LCD was turned yellow.
 
 License
 =======
